@@ -33,7 +33,7 @@ The two methods that I will be using are 1. Graphical Descriptive Results and 2.
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 # Results
-The results show that Skill players are the ones that are able to o more pushups rather than a Line player the mean is 37. Of 54 and 20. The Skill players are able to do 54 pushups and the Line players around 20. In my data set in the Environmental tab I see the same result for the Skill players the most a Skill player did in the Data set was 58 pushups. The mean of the pushups in the data set is around 36.50.
+The results show that Skill players are the ones that are able to o more pushups rather than a Line player the mean is 37. Of 54 and 20. The Skill players are able to do 54 pushups and the Line players around 20. In my data set in the Environmental tab I see the same result for the Skill players the most a Skill player did in the Data set was 108 pushups. The most a Line player did was 34 pushups. Line
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
 
 ## Descriptive Results
