@@ -28,11 +28,12 @@ $H_0$: There is no difference between the average number of pushups of line vs s
 $H_A$: The average number of pushups done by line players is statistically different than that of skill players.
 
 # Methods
+The two methods that I will be using are 1. Graphical Descriptive Results and 2. A Visual Data set.
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 # Results
-
+The results show that Skill players are the ones that are able to o more pushups rather than a Line player the mean is 37. Of 54 and 20. The Skill players are able to do 54 pushups and the Line players around 20. In my data set in the Environmental tab I see the same result for the Skill players the most a Skill player did in the Data set was 58 pushups. The mean of the pushups in the data set is around 36.50.
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
 
 ## Descriptive Results
@@ -55,16 +56,20 @@ basicCN + geom_boxplot()
 ```{r}
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Skill vs Line pushups")
 ```
+
 ### Numerical Descriptive Results
 
+The numerical results are shown above which indicate that Skill players out beat Line players when it comes to pushups. The general mean from the plot above show that (Skill players do around 54 pushups) and (Line players do around 20 pushups).
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
 
+My hypothesis is that the Skill players will take the win for pushups, because a Skill position player is generally smaller than a Line player. It is known that when you are doing pushups you are pushing up about 80% of your own body fact so of course a smaller man is going to be able to do more pushups opposed to a larger male.
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 
 # Discussion and Conclusion
+The only discussion I can really think of is statistics it shows that Skill players are able to do more pushups maybe because they are smaller and when you are doing pushups you are pushing up 80% body fat. If you are 210 80% of 210 is 168. Now if you weigh 186 80% of that is 148 so a smaller man is pushing up 20 pounds less than someone that is bigger. <-This is just an example. My conclusion is that my hypothesis was right by descriptive evidence I can infer that Skill players can do more pushups than a Line player the relationship I did see was that Skill players take the 30-60 push up ratio where as the Line players take the 0-30 pushup ratio.
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
