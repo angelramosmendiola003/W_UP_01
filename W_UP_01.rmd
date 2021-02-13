@@ -59,12 +59,22 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 
 ### Numerical Descriptive Results
 
-The numerical results are shown above which indicate that Skill players out beat Line players when it comes to pushups. The general mean from the plot above show that (Skill players do around 54 pushups) and (Line players do around 20 pushups).
+
+```{r}
+pushstats <- favstats(pushups~position,data=mydata)
+pushstats
+options(digits=2)
+```
+The numerical results are shown above which indicate that Skill players out beat Line players when it comes to pushups. The general mean from the numerical description above show that (Skill players do around `r pushstats$mean[2]` pushups) and (Line players do around `r pushstats$mean[1]` pushups).
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
 
-My hypothesis is that the Skill players will take the win for pushups, because a Skill position player is generally smaller than a Line player. It is known that when you are doing pushups you are pushing up about 80% of your own body fact so of course a smaller man is going to be able to do more pushups opposed to a larger male.
+```{r}
+t.result <- t.test(pushups~position,data=mydata)
+t.result
+```
+We are confident p.value `r t.result$p.value` that the average number of pushups between the Line players and the Skill players lies in the interval. `r t.result$conf.int[1]` To `r t.result$conf.int[2]`.
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 
